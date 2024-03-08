@@ -4,6 +4,7 @@ class EasyValidator {
 
     constructor() {
         this.errors = [];
+        this.customRules = {};
     }
 
 
@@ -43,7 +44,7 @@ class EasyValidator {
 
                     switch (ruleName) {
                         case 'required':
-                            if (!value || value.trim() === '') {
+                            if (!value || typeof value === 'string' && value.trim() === '') {
                                 this.errors.push(customMessages[field]?.[ruleName] || `Field '${field}' is required.`);
                             }
                             break;
