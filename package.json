@@ -1,5 +1,5 @@
 {
-  "name": "easy-validator",
+  "name": "node-easy-validatorjs",
   "version": "1.0.0",
   "description": "make validation easy",
   "main": "index.js",

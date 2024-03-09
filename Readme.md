@@ -9,13 +9,13 @@ EasyValidator is a lightweight and flexible Node.js library for data validation.
 You can install EasyValidator via npm:
 
 ```bash
-npm install easy-validator
+npm install node-easy-validatorjs
 ```
 
 ### Usage
 
 ```javascript
-const EasyValidator = require('easy-validator');
+const EasyValidator = require('node-easy-validatorjs');
 
 // Create an instance of EasyValidator
 const validator = new EasyValidator();
